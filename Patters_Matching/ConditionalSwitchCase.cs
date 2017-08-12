@@ -12,7 +12,6 @@ namespace Patters_Matching
     {
         static void Main(string[] args)
         {
-
             Planilla planilla = new Planilla();
             planilla.execute();
 
@@ -50,7 +49,7 @@ namespace Patters_Matching
                     Write(Environment.NewLine);
                     Write($" Con {arq.PersonasACargo} personas a cargo ");
                     Write(Environment.NewLine);
-                    Write($" Maneja los lenguajes {arq.Lenguage} ");
+                    Write($" Maneja los lenguajes {arq.Lenguaje} ");
                     Write(Environment.NewLine);
                     Write($" A un nivel de {arq.Nivel}");
                     break;
@@ -60,7 +59,7 @@ namespace Patters_Matching
                     Write(Environment.NewLine);
                     Write($"Con {dev.AñosExperiencia} años de experiencia");
                     Write(Environment.NewLine);
-                    Write($"Maneja los lenguajes {dev.Lenguage}");
+                    Write($"Maneja los lenguajes {dev.Lenguaje}");
                     Write(Environment.NewLine);
                     Write($"A un nivel de {dev.Nivel}");
                     break;
@@ -72,7 +71,9 @@ namespace Patters_Matching
                     Write(Environment.NewLine);
                     Write($" No es developer ni arquitecto");
                     break;
+
             }
+
 
         }
 
