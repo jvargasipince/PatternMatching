@@ -18,15 +18,12 @@ namespace Patters_Matching
 
         }
 
-
         public class Factorial
         {
             public void execute()
             {
                 CalcularFactorial(4);
                 CalcularFactorialIncluyendoCadena("5");
-
-                //Compilar con control + F5
             }
 
             public void CalcularFactorial(object o)
@@ -43,7 +40,7 @@ namespace Patters_Matching
                 }
 
                 WriteLine($"El factorial de {numero} es {total}");
-                //ReadLine();
+                
             }
 
             public void CalcularFactorialIncluyendoCadena(object o)
@@ -60,7 +57,6 @@ namespace Patters_Matching
                 }
 
                 WriteLine($"El factorial de {numero} es {total}");
-                //ReadLine();
             }
 
         }

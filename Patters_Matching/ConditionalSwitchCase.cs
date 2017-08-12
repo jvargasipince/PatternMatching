@@ -36,7 +36,7 @@ namespace Patters_Matching
             empleado.AñosExperiencia = 8;
             (empleado as ArquitectoSw).Proyecto = "Migración a Azure";
             (empleado as ArquitectoSw).PersonasACargo = 5;
-            (empleado as Developer).Lenguage = "C#, Angular, TypeScript";
+            (empleado as Developer).Lenguaje = "C#, Angular, TypeScript";
             (empleado as Developer).Nivel = "Senior";
 
             switch (empleado)
@@ -95,8 +95,7 @@ namespace Patters_Matching
             }
 
 
-        }
-        //Compilar con control + F5       
+        }     
     }
 
     public class Empleado
@@ -108,7 +107,7 @@ namespace Patters_Matching
     public class Developer : Empleado
     {
         public string Nivel { get; set; }
-        public string Lenguage { get; set; }
+        public string Lenguaje { get; set; }
     }
 
     public  class ArquitectoSw : Developer
